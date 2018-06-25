@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "lighthouse": "^2.9.4"
+  },
+  "dependencies": {
+    "csv-writer": "^1.0.0",
+    "eslint": "^4.19.1",
+    "q": "^1.5.1"
+  },
+  "scripts": {
+    "runTest": "rm -f results.csv && node index.js"
+  }
+}
